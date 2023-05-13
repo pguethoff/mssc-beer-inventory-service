@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package guru.sfg.beer.inventory.service.web.mappers;
+package com.pguethoff.web.mappers;
 
 import org.springframework.stereotype.Component;
 
@@ -24,7 +24,7 @@ import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 
 /**
- * Created by jt on 2019-02-13.
+ * Created by pgue on 2023-02-13.
  */
 @Component
 public class DateMapper {

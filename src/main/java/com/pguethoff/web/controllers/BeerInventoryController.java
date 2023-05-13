@@ -1,8 +1,8 @@
-package guru.sfg.beer.inventory.service.web.controllers;
+package com.pguethoff.web.controllers;
 
-import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
-import guru.sfg.beer.inventory.service.web.mappers.BeerInventoryMapper;
-import guru.sfg.beer.inventory.service.web.model.BeerInventoryDto;
+import com.pguethoff.repositories.BeerInventoryRepository;
+import com.pguethoff.web.model.BeerInventoryDto;
+import com.pguethoff.web.mappers.BeerInventoryMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
- * Created by jt on 2019-05-31.
+ * Created by pgue on 2023-05-31.
  */
 @Slf4j
 @RequiredArgsConstructor

@@ -1,7 +1,7 @@
-package guru.sfg.beer.inventory.service.bootstrap;
+package com.pguethoff.bootstrap;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
+import com.pguethoff.domain.BeerInventory;
+import com.pguethoff.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.UUID;
 
 /**
- * Created by jt on 2019-06-07.
+ * Created by pgue on 2023-06-07.
  */
 @Slf4j
 @RequiredArgsConstructor

@@ -14,16 +14,16 @@
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package guru.sfg.beer.inventory.service.repositories;
+package com.pguethoff.repositories;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
+import com.pguethoff.domain.BeerInventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 import java.util.UUID;
 
 /**
- * Created by jt on 2019-01-26.
+ * Created by pgue on 2023-01-26.
  */
 public interface BeerInventoryRepository extends JpaRepository<BeerInventory, UUID> {
 

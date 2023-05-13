@@ -1,11 +1,11 @@
-package guru.sfg.beer.inventory.service.web.mappers;
+package com.pguethoff.web.mappers;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.web.model.BeerInventoryDto;
+import com.pguethoff.domain.BeerInventory;
+import com.pguethoff.web.model.BeerInventoryDto;
 import org.mapstruct.Mapper;
 
 /**
- * Created by jt on 2019-05-31.
+ * Created by pgue on 2023-05-31.
  */
 @Mapper(uses = {DateMapper.class})
 public interface BeerInventoryMapper {
